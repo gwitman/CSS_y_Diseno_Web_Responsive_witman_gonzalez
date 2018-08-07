@@ -1,0 +1,138 @@
+@media all{         
+    .imagen1{
+        background: #d5c75f;
+        width: 33%;
+        order: 1;
+        flex-grow: 1;
+
+        text-align: center;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .imagen1 img{
+        width: 50%;
+        filter: blur(10px);
+    }
+    .imagen2{
+        background:  #d5c75f;
+        width: 33%;
+        order: 2;
+        flex-grow: 1;   
+
+        text-align: center;
+        padding-top: 40px;
+        padding-bottom: 40px;             
+    }
+    .imagen2 img{
+        width           : 50%;
+        border          : 2px solid #fff;        
+        filter          : drop-shadow(3px 3px 3px #82c3a6);
+        -webkit-filter  : drop-shadow(3px 3px 3px #82c3a6);
+    }
+    .imagen3{
+        background:  #d5c75f;
+        width: 33%;
+        order: 3;
+        flex-grow: 1;
+
+        text-align: center;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .imagen3 img{
+        width           : 50%;
+        border          : 2px solid #fff;        
+        filter          : sepia(90%);
+        -webkit-filter  : sepia(90%);
+    }
+    .imagen4{
+        background:  #d5c75f;
+        width: 33%;
+        order: 4;
+        flex-grow: 1;
+
+        text-align: center;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .imagen4 img{
+        width           : 50%;
+        border          : 2px solid #fff;        
+        filter          : drop-shadow(3px 3px 3px #82c3a6);
+        -webkit-filter  : drop-shadow(3px 3px 3px #82c3a6);
+    }
+    .imagen5{
+        background:  #d5c75f;
+        width: 33%;
+        order: 5;
+        flex-grow: 1;
+
+        text-align: center;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .imagen5 img{
+        width           : 50%;
+        border          : 2px solid #fff;
+        transition      : transform 0.5s;
+        filter          : drop-shadow(3px 3px 3px #82c3a6);
+        -webkit-filter  : drop-shadow(3px 3px 3px #82c3a6);
+    }
+    .imagen6{
+        background:  #d5c75f;
+        width: 33%;
+        order: 6;
+        flex-grow: 1;
+
+        text-align: center;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .imagen6 img{
+        width           : 50%;
+        border          : 2px solid #fff;
+        transition      : transform 0.5s;
+        filter          : drop-shadow(3px 3px 3px #82c3a6);
+        -webkit-filter  : drop-shadow(3px 3px 3px #82c3a6);
+    }
+
+    .imagenesPares {
+        filter: grayscale(100%);
+    }
+}
+/*telefonos*/
+@media (max-width:900px){         
+    .imagen1{
+        width: 100%;                
+        order: 1;
+        flex-grow: 1;
+    }
+    .imagen1 img{
+        width: 50%;
+    }
+    .imagen2{
+        width: 100%;                
+        order: 2;
+        flex-grow: 1;
+    }
+    .imagen3{
+        width: 100%;                
+        order: 3;
+        flex-grow: 1;
+    }
+    .imagen4{
+        width: 100%;                
+        order: 4;
+        flex-grow: 1;
+    }
+    .imagen5{
+        width: 100%;                
+        order: 5;
+        flex-grow: 1;
+    }
+    .imagen6{
+        width: 100%;                
+        order: 6;
+        flex-grow: 1;
+    }                
+}

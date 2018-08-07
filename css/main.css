@@ -1,0 +1,121 @@
+@font-face {
+    font-family : DancingScript-Regular;
+    src         : url(../font/DancingScript-Regular.otf);
+}
+
+ /*todos*/
+ @media all{
+    body{
+       background: #02010a
+    }
+    *
+    {                
+        font-family   : 'DancingScript-Regular', Courier, monospace
+    }
+    #contenido{
+        width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    header{
+      height: 80px;
+      background: #5b7989;    
+      border-radius: 10px 10px 0px 0px;        
+      color: #ffffff;
+    }
+    header h1 {                
+        text-shadow: 2px 2px #02010a;
+        display: inline;
+    }
+    header nav{
+        display: inline;
+    }
+    header ul{
+        list-style-type: none;
+        text-decoration: none;      
+        float:right;   
+        margin-bottom: 0px;       
+    }
+    header ul li{
+        display: inline;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    header ul li a,header ul li a:visited {
+        color: #fff;
+    }
+    section{              
+        display:flex;      
+        flex-flow:row wrap;
+        width: 100%;
+    }
+    main section article picture {
+        display: block;
+    }
+    footer{
+      clear: both;              
+      background: #C6d5c5;
+      border-radius: 0px 0px 10px 10px;      
+      display: flex;
+      flex-flow: row wrap;
+    }
+    img{
+        border: 2px solid #fff;
+    }
+    footer article{
+        padding: 7px;
+    }
+    footer article h2{
+        margin:auto;
+    }
+    .contactenos{
+        order: 1;
+        flex-grow: 1;   
+    }
+    .terminos{
+        order: 1;
+        flex-grow: 1;   
+    }
+    .redes{
+        order: 1;
+        flex-grow: 1;   
+    }
+    .derechos{
+        order: 1;
+        flex-grow: 1;   
+    }
+}
+
+/*telefonos*/
+@media (max-width:900px){
+    header{
+        text-align: center;
+    }
+    header ul{
+        padding: 0px;
+        width: 100%;
+    }
+    #contenido{
+        width: 100%;
+    }
+    .contactenos{
+        width: 100%;
+        order: 1;
+        flex-grow: 1;   
+    }
+    .terminos{
+        width: 100%;
+        order: 1;
+        flex-grow: 1;   
+    }
+    .redes{
+        width: 100%;
+        order: 1;
+        flex-grow: 1;   
+    }
+    .derechos{
+        width: 100%;
+        order: 1;
+        flex-grow: 1;   
+    }
+}
