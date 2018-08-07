@@ -1,11 +1,11 @@
 @font-face {
     font-family : DancingScript-Regular;
     src         : url(../font/DancingScript-Regular.otf);
-} 
+}  
 
  /*todos*/
  @media all{
-    body{
+    body{        
        background: #02010a
     }
     *
